@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YOUNGT Tech</title>
+<style>
+
+/* General Page Styles */
+body {
+    background-color: green; /* Sets the background color */
+    color: black; /* Sets the text color */
+    font-family: Arial, sans-serif; /* Changes the text font */
+    text-align: center; /* Centers text */
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes default padding */
+}
+
+/* Header Styles */
+header {
+    background-color: darkgreen; /* Dark green background */
+    padding: 10px; /* Adds space inside */
+    color: white; /* White text */
+    font-size: 24px; /* Increases text size */
+}
+
+/* Navigation Bar */
+nav {
+    background-color: lightgreen; /* Light green background */
+    padding: 10px; /* Adds spacing inside */
+    margin: 10px 0; /* Adds space above and below */
+}
+
+nav a {
+    text-decoration: none; /* Removes underline from links */
+    color: black; /* Sets text color */
+    font-weight: bold; /* Makes text bold */
+    margin: 15px; /* Adds spacing between links */
+}
+
+/* Main Content */
+main {
+    padding: 20px; /* Adds space around content */
+}
+
+/* Image Styling */
+img {
+    width: 300px; /* Sets width */
+    height: auto; /* Keeps the aspect ratio */
+    border-radius: 10px; /* Rounds the corners */
+}
+
+/* Form Styling */
+form {
+    background-color: white; /* White background */
+    padding: 20px; /* Adds spacing inside */
+    border-radius: 10px; /* Rounds the corners */
+    display: inline-block; /* Keeps it from taking full width */
+}
+
+input {
+    width: 80%; /* Makes input fields wider */
+    padding: 8px; /* Adds space inside input fields */
+    margin: 5px 0; /* Adds space between inputs */
+    border: 1px solid gray; /* Adds a gray border */
+    border-radius: 5px; /* Rounds the edges */
+}
+
+/* Button Styling */
+button {
+    background-color: darkgreen; /* Dark green background */
+    color: white; /* White text */
+    padding: 10px; /* Adds space inside button */
+    border: none; /* Removes border */
+    border-radius: 5px; /* Rounds the edges */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: black; /* Changes color when hovered */
+}
+
+/* Footer Styling */
+footer {
+    background-color: darkgreen; /* Dark green background */
+    color: white; /* White text */
+    padding: 10px; /* Adds space inside */
+    margin-top: 20px; /* Adds space above */
+</style>
+</head>
+<body bgcolor="red" text="black">
+
+    <header>
+        <h1>WELCOME TO</h1>
+        <h2>YOUNG TEE Tech</h2>
+    </header>
+
+    <nav>
+        <strong>Here are my links:</strong>
+        <ul>
+            <li>WhatsApp: <a href="https://wa.me/27722247464">Click here to chat</a></li>
+            <li>Group: <a href="https://chat.whatsapp.com/CvCsijfCVD67IPsREC2vLE">Start chatting</a></li>
+            <li>Channel: <a href="https://whatsapp.com/channel/0029Vb3X5B7CHDynvsspSI0g">Click here</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <strong>ENJOY THE SERVICES </strong><br>
+        <em>If you like this, just DM me </em><br>
+        <p>Wanna chat with me?</p>
+        <img src="https://files.catbox.moe/f26ok7.jpeg" width="300" height="200">
+        
+        <form>
+            <h2>Fill your details here</h2>
+            Name: <input type="text" placeholder="Type your name here..." required><br>
+            Email: <input type="email" placeholder="Type your email..." required><br>
+            Number: <input type="number" placeholder="2557xxxxxxxxxx" required><br>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 YoungtTech. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
